@@ -49,5 +49,22 @@ VALUES
 --   1 |      | uv       |    10
 --   5 |      |          |      
 -- (2 rows)
+-- SELECT * FROM basics.value_examples WHERE name IS NOT NULL;  
+-- DROP TABLE
+-- CREATE TABLE
+-- INSERT 0 6
+--  id | name | nickname | score 
+-- ----+------+----------+-------
+--   3 | gana |          |      
+--   6 | gana |          |     0
+-- (2 rows)
 
-SELECT * FROM basics.value_examples WHERE name IS NOT NULL;  
+SELECT * FROM basics.value_examples WHERE name = '';
+-- DROP TABLE
+-- CREATE TABLE
+-- INSERT 0 6
+--  id | name | nickname | score 
+-- ----+------+----------+-------
+--   2 |      | loki     |     0
+--   4 |      |          |    20
+-- (2 rows)

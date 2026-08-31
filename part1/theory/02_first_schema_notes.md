@@ -39,9 +39,10 @@ ORDER BY schema_name;
  public
 (5 rows)
 ```
-
+<!-- important to know -->
 * **`basics`**: Your custom user-defined schema.
 * **`public`**: The default schema where tables are created if no schema name is specified.
 * **`pg_catalog`**: PostgreSQL's internal schema containing built-in system tables, types, and functions.
 * **`information_schema`**: Standard views that hold information and metadata about all database objects.
 * **`pg_toast`**: Internal system schema used to store large/oversized data (like massive text or JSON) out-of-line.
+<!-- important to know -->

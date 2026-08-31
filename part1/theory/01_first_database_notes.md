@@ -141,7 +141,7 @@ psql -U <user> -d <database> -f <file.sql>
 
 #### Command for this project:
 ```bash
-psql -U postgres -d postgres -f part1/01_first_database.sql
+psql -U postgres -d postgresql_part1 -f part1/01_first_database.sql
 ```
 
 #### 🔍 Breakdown of the Command Flags:
